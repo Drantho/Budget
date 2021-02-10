@@ -10,8 +10,7 @@ const staticFilesToPreCache = [
   "/index.js",
   "/styles.css",
   "/db.js",
-  "/manifest.webmanifest",
-  "/routes/api.js"
+  "/manifest.webmanifest"
 ];
 
 

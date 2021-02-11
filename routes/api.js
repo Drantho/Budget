@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const Transaction = require("../models/transaction.js");
 
-router.get("/fred/:msg", (req, res) => {
+router.get("/api/:msg", (req, res) => {
   res.json({msg: "hello, " + req.params.msg})
 })
 

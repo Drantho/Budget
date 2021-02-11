@@ -43,7 +43,7 @@
 
   * 4. Name your PWA, then tap Add below the promp.
 
-  
+
 
   -------------------------------------------------------------------------------
 
@@ -52,6 +52,9 @@
   
 
   Enter transaction name, amount, then click either add funds or subtract funds. 
+
+  ### Home page
+  ![Home Page](./public/screenshot.png?raw=true "Home Page")
 
   -------------------------------------------------------------------------------
 

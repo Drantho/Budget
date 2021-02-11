@@ -1,11 +1,6 @@
 const router = require("express").Router();
 const Transaction = require("../models/transaction.js");
 
-router.get("/api/:msg", (req, res) => {
-  res.json({msg: "hello, " + req.params.msg})
-})
-
-
 router.post("/api/transaction", ({body}, res) => {
   res.json({msg: "nothing works!!!!!!!!!"})
   // Transaction.create(body)

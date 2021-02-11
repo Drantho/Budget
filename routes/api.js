@@ -1,18 +1,15 @@
 const router = require("express").Router();
 const Transaction = require("../models/transaction.js");
 
-router.get("/:all", (req, res)=> {
-  res.json({msg: "hello"});
-})
-
 router.post("/api/transaction", ({body}, res) => {
-  Transaction.create(body)
-    .then(dbTransaction => {
-      res.json(dbTransaction);
-    })
-    .catch(err => {
-      res.status(404).json(err);
-    });
+  res.redirect("http://www.google.com");
+  // Transaction.create(body)
+  //   .then(dbTransaction => {
+  //     res.json(dbTransaction);
+  //   })
+  //   .catch(err => {
+  //     res.status(404).json(err);
+  //   });
 });
 
 router.post("/api/transaction/bulk", ({body}, res) => {

@@ -16,6 +16,9 @@
 
   This is an an adaptation of a budget app. The app allows users to add funds and expenses and see a chart. This app has been extended into a PWA. Users can install this app on their device of choice.
 
+  ### View Live: https://admbudgettracker.herokuapp.com/
+  ### Github: https://github.com/Drantho/Budget
+
   -------------------------------------------------------------------------------
 
   ## Installation 
